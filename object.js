@@ -118,3 +118,69 @@ function printProcessedOrders (orders) {
 printProcessedOrders(arrayOfObjects);
 
 
+/*Putting stuff in plainBox
+
+Declare a function and a single parameter which will be an object. Within this function, write a FOR loop that adds 10 random number values to the array referenced at the contents property of the object being passed in. This function will return the object.
+
+Invoke your function and pass in your object (which should be plainBox), store the result to a variable and use console.log to inspect your results.
+*/
+
+function randomNumber() {
+    var randomNumbers  = [ 23, 10 ,5 , 3, 4, 1, 10];
+    return randomNumbers [i];
+}
+
+
+function putStuff(box) {
+    var contentsTOPut = [];
+    for ( var i =0; i < 10; i++){
+        box.contents.push(randonNumber());
+    }
+    box.contents = contentsToPut;
+    return box;
+}
+
+var plainBox = {};
+console.log(putStuff(plainBox));
+plaingBox.contents = [];
+console.log(putStuff(plainBox));
+
+
+//FINAL BOSS//
+
+function buildPerson (person, name, age){
+    person.name = name;
+    person.age = age;
+    return person;
+}
+
+
+var passengerList =[ 'jon', 'jason'];
+
+var passsengerAgees = [ 19, 12];
+
+function weRidin (car, names, ages){
+
+    car.passengers = car.passengers  || [];
+
+    for (var i = 0; i < names.lenth; i++) {
+       
+    }
+
+
+    return car;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
